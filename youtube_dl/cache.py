@@ -23,7 +23,7 @@ class Cache(object):
 
     _YTDL_DIR = 'youtube-dl'
     _VERSION_KEY = _YTDL_DIR + '_version'
-    _DEFAULT_VERSION = '2021.12.17'
+    _DEFAULT_VERSION = '2023.03.15'
 
     def __init__(self, ydl):
         self._ydl = ydl
